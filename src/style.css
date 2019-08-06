@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    color: #444;
+}
+
+.App {
+    padding: 20px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}

@@ -1,0 +1,35 @@
+.ListItem {
+    padding: 10px;
+    border-bottom: 1px solid #e1e1e1;
+    cursor: pointer;
+}
+
+.ListItem:hover {
+    background: #f7f9ff;
+}
+
+.ListItem__label {
+    display: flex;
+    align-items: center;
+}
+
+.ListItem__name {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #222;
+    width: 70px;
+}
+
+.ListItem__img {
+    border-radius: 3px;
+    margin: 0 10px;
+}
+
+.ListItem__color {
+    text-indent: -9999px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 10px;
+}
